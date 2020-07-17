@@ -1,0 +1,23 @@
+
+vendor/
+
+.env
+# IDE
+.idea
+.DS_Store
+.vscode
+.idea
+debug
+debug.test
+tmp
+golang-junit.xml
+coverage.txt
+bin
+.swp
+
+
+# build
+bazel-*
+
+db.sqlite3
+.db

@@ -1,0 +1,9 @@
+version: "3"
+services:
+  product:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mustafadubul/product:latest
+    ports:
+      - 8080:8080
